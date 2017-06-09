@@ -21,10 +21,10 @@ from telebot import types
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
-token = 'UToken' #Token 
+token = '394509436:AAHfAvyew01KJMy7PbcmU50HVCkV3clNuQM' #Token 
 bot = telebot.TeleBot(token)
 database = redis.StrictRedis(host='localhost', port=6379, db=0, decode_responses=True)
-sudos = [198794027,264150062] #Sudo IDs
+sudos = [315017219,317576202] #Sudo IDs
 db = "https://api.telegram.org/bot{}/getMe?".format(token)
 res = urllib.urlopen(db)
 res_body = res.read()
