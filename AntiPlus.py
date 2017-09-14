@@ -228,7 +228,7 @@ def add(msg):
 		channel.add(types.InlineKeyboardButton('Owners > {}'.format(ownersgp), callback_data='ownerss'))
 		channel.add(types.InlineKeyboardButton('Promote > {}'.format(promotes), callback_data='promotess'))
 		channel.add(types.InlineKeyboardButton('Groups > {}'.format(groupss), callback_data='gps'))
-		channel.add(types.InlineKeyboardButton('🌐Channel🌐', url='https://telegram.me/PlusTM'))
+		channel.add(types.InlineKeyboardButton('🌐Channel🌐', url='https://telegram.me/CyberSecurrity'))
 		bot.reply_to(msg, "👥Group Stats >".format(stats,groupss), reply_markup=channel)
 
 ######################################################################################
